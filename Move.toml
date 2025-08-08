@@ -1,0 +1,15 @@
+[package]
+name = "aptos-session"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule = '0xdfff2205e6efabcbc91c6b6c0670f1d3626482a0185e8c782fc17e9efdcbfad6'
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
